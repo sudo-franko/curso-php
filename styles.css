@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color-scheme: light dark;
+    font-family:'Courier New', Courier, monospace;
+}
+
+main {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+.movie-img {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.next-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
